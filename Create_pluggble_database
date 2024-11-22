@@ -1,1 +1,17 @@
+sql>Create pluggable database thur_falcons_banks_loan_reingeering
+FROM ORLCPDB
+FILE_NAME_CONVERT = ('C:\ORLCPDB\ORADATA\ORCL\ORLCPDB\',
+                      C:\ORLCPDB\ORADATA\ORCL\ORLCPDB\thur_falcons_banks_loan_reingeering\');
+
+
+show pdbs;
+ --checks  available pluggable database--
+
+--after checking opne this pluggable database by making it read write
+sql>ALTER  pluggable database thur_falcons_banks_loan_reingeering open;
+
+-- pluggable database altered.
+--then available read write pluggable database displayed 
+
+
 
