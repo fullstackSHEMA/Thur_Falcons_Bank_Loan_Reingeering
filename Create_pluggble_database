@@ -13,5 +13,20 @@ sql>ALTER  pluggable database thur_falcons_banks_loan_reingeering open;
 -- pluggable database altered.
 --then available read write pluggable database displayed 
 
+--grand privilages to this pluggable we create to make it open and create user
+
+ALTER SESSION SET CONTAINER=thur_falcons_banks_loan_reingeering;
+
+--session altered
+create user
+grant all privilages to user;
+
+
+
+
+
+  
+
+
 
 
